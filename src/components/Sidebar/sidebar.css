@@ -27,6 +27,10 @@
 }
 
 
+.nav__link:hover {
+    color: hsl(43, 100%, 68%);
+}
+
 .copyright {
     color: hsl(145, 15%, 65%);
     font-size: var(--font-small);
