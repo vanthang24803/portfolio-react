@@ -1,2 +1,88 @@
+.pricing__container {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.pricing__img {
+    width: 36%;
+}
+
+.pricing__img:hover {
+    transform: scale(1.2);
+    transition: ease-in-out .3s;
+}
+
+.pricing__item {
+    padding: 1.875rem 2.5rem;
+    background-color: var(--container-color);
+    text-align: center;
+    border-radius: var(--boder-radius);
+    box-shadow: var(--shadow);
+}
+
+.pricing__plan {
+    margin: 1.25rem 0;
+    font-size: var(--h2-font-size);
+}
+
+.pricing__title,
+.pricing__support {
+    margin-bottom: 1rem;
+}
+
+.pricing__support {
+    font-size: var(--h3-font-size);
+    font-weight: 500;
+}
+
+.price {
+    font-size: var(--h1-font-size);
+    font-weight: 700;
+}
+
+.price em {
+    font-size: normal;
+    font-size: var(--small-font-size);
+    margin-right: 0.5rem;
+    vertical-align: super;
+}
+
+.price span {
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+.pricing__item .btn {
+    margin-top: 1.25rem;
+}
+
+.pricing__item:nth-child(2) {
+    padding: 3.4rem 2.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.pricing__item:nth-child(3) {
+    padding: 2.5rem;
+}
+
+.pricing__item {
+    margin: 0 0.5rem;
+}
 
 
+.badge {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    color: #fff;
+    background-color: #6c6ce5;
+    transform: rotate(-90deg);
+    padding: .25rem .75rem;
+    font-size: var(--small-font-size);
+    border-bottom-left-radius: var(--boder-radius);
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: var(--boder-radius);
+}
