@@ -34,7 +34,7 @@
 }
 
 .home__social-link:hover {
-    color: hsl(43, 100%, 68%);
+    color: hsl(43, 100%, 68%) !important;
 }
 
 .scroll-down {
@@ -90,8 +90,9 @@
 }
 
 .shapes {
-    margin-left: 110px;
+    z-index: -1;
     position: absolute;
+    margin-left: 110px;
     left: 0;
     top: 0;
     line-height: 100%;

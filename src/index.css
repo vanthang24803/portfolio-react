@@ -149,7 +149,7 @@ img {
 }
 
 .btn:hover {
-  animation: button-push 0.3s linear;
+  animation: button-push 0.3s linear !important;
 }
 
 /* Responsive 1 */
