@@ -1,6 +1,6 @@
 import React from 'react';
 import "./sidebar.css";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo-2.svg";
 import Home from '../Home/Home';
 import About from '../About/About';
 import Resume from '../Resume/Resume';

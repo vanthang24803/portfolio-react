@@ -37,3 +37,11 @@
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
 }
+img{
+     width: 80%;
+}
+
+.nav__logo img {
+    width: 200%;
+    height: 200%;
+}
