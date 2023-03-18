@@ -12,7 +12,19 @@
 }
 
 .home__img {
+    width: 80%;
     margin-bottom: 1.5rem;
+}
+
+.home__img:hover {
+    transform: scale(1.25);
+    transition: ease .2s;
+}
+
+.btn-hire {
+    width: 86%;
+    height: auto;
+    font-size: var(--h3-font-size);
 }
 
 .home__name {
@@ -35,6 +47,7 @@
 
 .home__social-link:hover {
     color: hsl(43, 100%, 68%) !important;
+    transform: scale(1.2);
 }
 
 .scroll-down {

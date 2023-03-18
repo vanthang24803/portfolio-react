@@ -36,7 +36,7 @@
     row-gap: 1.25rem;
 }
 
-.skills_titles{
+.skills_titles {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
@@ -89,10 +89,15 @@
     height: 75%;
 }
 
+.about__img:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
 .about__boxes {
     margin-top: 4.35rem;
     margin-left: 7rem;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 1.875rem;
 }
 
@@ -112,4 +117,5 @@
 
 .btn-down {
     margin-top: 20px;
+    width: 40%;
 }
