@@ -5,7 +5,7 @@ import Img2 from '../../assets/price-2.svg';
 import Img3 from '../../assets/price-3.svg';
 const Pricing = () => {
     return (
-        <section className="pricing container section">
+        <section className="pricing container section" id='pricing'>
             <h2 className="section__title">Pricing Plans</h2>
 
             <div className="pricing__container grid">
