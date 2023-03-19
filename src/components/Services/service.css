@@ -45,7 +45,27 @@
 
 .services__description {
     font-size: var(--normal-font-size);
-    text-align:start;
+    text-align: start;
     color: #3e3b3bb4;
     font-weight: 400;
+}
+
+@media screen and (max-width:1024px) {
+    .services__container {
+        margin-right: 14rem;
+        grid-template-columns: repeat(2, 330px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+
+    .services__description {
+        font-size: var(--small-font-size);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .services__container {
+        grid-template-columns: repeat(1,330px);
+        row-gap: 1.875rem;
+    }
 }

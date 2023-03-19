@@ -12,7 +12,7 @@
     margin-bottom: .5rem;
 }
 
-.contact__details{
+.contact__details {
     font-size: var(--h3-font-size);
 
 }
@@ -52,4 +52,19 @@
 
 .contact__form-area textarea {
     resize: none;
+}
+
+@media screen and (max-width:1024px) {
+    .contact__container {
+        grid-template-columns: 3fr 6fr;
+        column-gap: 1.875rem;
+    }
+
+    .contact__title {
+        font-size: var(--h3-font-size);
+    }
+
+    .contact__details {
+        font-size: var(--normal-font-size);
+    }
 }

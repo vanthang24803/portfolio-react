@@ -86,3 +86,11 @@
     border-top-right-radius: 0;
     border-top-left-radius: var(--boder-radius);
 }
+
+@media screen and (max-width:1024px) {
+    .pricing__container {
+        grid-template-columns: repeat(2, 380px);
+        column-gap: 1.875rem;
+
+    }
+}
