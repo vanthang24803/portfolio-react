@@ -158,19 +158,33 @@
 
 
 @media screen and (max-width: 768px) {
-    .about__container{
-        grid-template-columns: 350px;
+    .about__container {
+        grid-template-columns: 330px;
+        column-gap: 1.875rem;
+        margin-left: 20px;
     }
     .about__data {
-        left: 47%;
-    }
-
-    .about__data {
-        grid-template-columns: 1fr;
-        row-gap: 1.875rem;
+        margin-left: -2.2rem;
+        left: 4%;
     }
 
     .about__img {
+        margin-left: 45px;
         margin-bottom: 1rem;
+    }
+
+    .btn-down {
+        text-align: center;
+        width: 100%;    
+    }
+
+    .about__description {
+        text-align:justify;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .about__boxes {
+        grid-template-columns: 30px;
     }
 }

@@ -91,6 +91,17 @@
     .pricing__container {
         grid-template-columns: repeat(2, 380px);
         column-gap: 1.875rem;
-
     }
 }
+
+@media screen and (max-width:768px) {
+    .pricing__container{
+        grid-template-columns: repeat(1, 360px);
+        column-gap: 1.875rem;
+    }
+
+    .pricing__item {
+        margin-bottom: 2rem;
+    }
+}
+

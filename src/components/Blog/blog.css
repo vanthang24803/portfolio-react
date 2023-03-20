@@ -16,7 +16,7 @@
     overflow: initial;
 }
 
-.blog__img{
+.blog__img {
     width: auto;
     height: auto;
 }
@@ -26,7 +26,7 @@
     transition: .3s;
 }
 
-.blog__category{
+.blog__category {
     color: #fff;
     background-color: red;
     border-bottom-left-radius: 1rem;
@@ -39,7 +39,7 @@
     padding: 0.1rem 0.4rem;
     transform: translateY(-40px);
     transition: .3s;
-    z-index: 1 ;
+    z-index: 1;
 }
 
 .blog__details {
@@ -74,5 +74,12 @@
     .blog__card {
         margin-left: 1rem;
         margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .blog__container {
+        grid-template-columns: repeat(1, 360px);
+        column-gap: 1.875rem;
     }
 }

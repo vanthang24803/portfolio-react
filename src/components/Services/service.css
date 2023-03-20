@@ -58,6 +58,10 @@
         row-gap: 1.875rem;
     }
 
+    .services__title {
+        font-size: var(--h3-font-size);
+    }
+
     .services__description {
         font-size: var(--small-font-size);
     }
@@ -65,7 +69,23 @@
 
 @media screen and (max-width:768px) {
     .services__container {
-        grid-template-columns: repeat(1,330px);
-        row-gap: 1.875rem;
+        grid-template-columns: repeat(1, 360px);
+        column-gap: 1.875rem
+    }
+}
+
+@media screen and (max-width:586px) {
+    .services__container {
+        grid-template-columns: 320px;
+        column-gap: 1.875rem;
+        margin-left: -28.75rem;
+    }
+
+    .services__title {
+        font-size: var(--normal-font-size);
+    }
+
+    .services__description {
+        font-size: var(--smaller-font-size);
     }
 }

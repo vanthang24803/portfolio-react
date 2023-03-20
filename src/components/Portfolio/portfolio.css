@@ -110,7 +110,11 @@
 }
 @media screen and (max-width:768px) {
     .work__container {
-        grid-template-columns: repeat(1, 300px);
+        grid-template-columns: repeat(1, 360px);
         column-gap: 1.875rem;
+    }
+
+    .work__item {
+        margin-left: -8px;
     }
 }

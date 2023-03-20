@@ -196,7 +196,7 @@
         left: 6%;
     }
 
-    .s6{
+    .s6 {
         top: 6%;
     }
 
@@ -222,6 +222,7 @@
         left: 50%;
         bottom: 28%;
     }
+
     .intro {
         margin-bottom: 16.5rem;
         margin-right: 16.5rem;
@@ -233,5 +234,17 @@
 @media screen and (max-width:1024px) {
     .shapes {
         display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    .intro{
+        margin-top: 12rem;
+        margin-left: -25rem;
+    }
+
+    .scroll-down {
+        margin-left: -12.65rem;
+        margin-bottom: -0.5rem;
     }
 }

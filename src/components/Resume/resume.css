@@ -58,13 +58,14 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:586px) {
     .resume__container {
-        grid-template-columns: 300px;
+        grid-template-columns: 340px;
         column-gap: 1.875rem;
+        margin-left: 1rem;
     }
 
     .timeline {
-        margin-left: 2rem;
+        margin-bottom: 2rem;
     }
 }

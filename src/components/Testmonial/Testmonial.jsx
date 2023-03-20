@@ -41,7 +41,7 @@ const data = [
 const Testmonial = () => {
     return (
         <section className="testmonial container section">
-            <h2 className="section__title">Clients & Reviews</h2>
+            <h2 className="section__title active">Clients & Reviews</h2>
 
             <Swiper className="testimonials_container grid"
                 modules={[Pagination]}

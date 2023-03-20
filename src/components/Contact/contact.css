@@ -8,11 +8,13 @@
 }
 
 .contact__title {
+    margin-left: 2rem;
     font-size: var(--h2-font-size);
     margin-bottom: .5rem;
 }
 
 .contact__details {
+    margin-left: 2rem;
     font-size: var(--h3-font-size);
 
 }
@@ -47,7 +49,6 @@
 
 .contact__form-area {
     height: 10.25rem;
-
 }
 
 .contact__form-area textarea {
@@ -56,15 +57,30 @@
 
 @media screen and (max-width:1024px) {
     .contact__container {
-        grid-template-columns: 3fr 6fr;
+        grid-template-columns: 2.5fr 5fr;
         column-gap: 1.875rem;
+        margin-right: 3rem;
     }
 
     .contact__title {
+        margin-left: 2rem;
         font-size: var(--h3-font-size);
     }
 
     .contact__details {
+        margin-left: 2rem;
         font-size: var(--normal-font-size);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact__form-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1.5rem;
+    }
+
+    .contact__form-area {
+        height: 12.5rem;
     }
 }
